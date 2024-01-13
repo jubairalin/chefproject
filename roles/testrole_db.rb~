@@ -1,0 +1,4 @@
+name "dbrole_users"
+description "its role to apply in specific runlist"
+run_list "receipe[cookbook2_deletefile]"
+#env_run_list "testenvironment1" =>["receipe[apache1]"]

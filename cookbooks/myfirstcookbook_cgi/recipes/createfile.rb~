@@ -1,0 +1,3 @@
+file '/opt/softwares/cgichefblr1' do
+	action :delete
+end
